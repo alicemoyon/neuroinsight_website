@@ -181,6 +181,10 @@ hr {
 	text-align: left;
 }
 
+.fa {
+	color: #92c841;
+}
+
 
 /* Navigation styling */
 
@@ -411,16 +415,8 @@ hr {
 /* Hero styling */
 /***************/
 
-.card-image {
-	box-shadow: none;
-	border-radius: 0;
-}
 
-/* Post-doc opportunities section */
 
-.postdoc {
-	border: 1px solid #92c841;
-}
 
 
 /***************************/
@@ -454,6 +450,60 @@ h4.ucd-h4 {
 
 h3.ucd {
 	color: #0e6a6a;
+}
+
+/***************************/
+/*      Profiles page      */
+/***************************/
+
+
+
+.badge-pill {
+	border: 1px solid #92c841;
+	text-transform: capitalize;
+	color: #92c841;
+	background-color: white;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+
+.card {
+	-webkit-box-shadow: 0 2px 0px 0 #92c841, 0 2px 0px 0 #92c841;
+	box-shadow: 0 2px 5px 0 #92c841, 0 2px 10px 0 #92c841;
+	border: 0;
+	font-weight: 400;
+}
+
+
+img.profile {
+	/*	width: 30% !important;*/
+	height: 20% !important;
+	/*
+	position: relative;
+	top: -140px;
+*/
+	border: 3px solid #92c841;
+	margin: 5 5 5 5;
+}
+
+
+@media (max-width:576px) {
+	img.profile {
+		width: 40% !important;
+		margin: 5 5 5 5;
+	}
+}
+
+
+
+row.techniques {
+	text-align: center !important;
+}
+
+a.profile-link {
+	font-size: small;
 }
 
 
@@ -573,6 +623,7 @@ h3.ucd {
 
 /* Research Areas page */
 
+/*
 .btn.research-button {
 	background-color: #0e6a6a;
 	font-family: 'Dosis';
@@ -582,7 +633,9 @@ h3.ucd {
 	line-height: 1.5;
 	border: 1px solid #0e6a6a;
 }
+*/
 
+/*
 a#phd-apply-button.btn.research-button.btn-rounded:hover {
 	color: #92c841;
 }
@@ -592,7 +645,9 @@ a#phd-apply-button.btn.research-button.btn-rounded:hover {
 	background-color: white;
 
 }
+*/
 
+/*
 .research-area-pill.btn.research-button {
 	color: #92c841;
 	background-color: white;
@@ -605,6 +660,7 @@ a#phd-apply-button.btn.research-button.btn-rounded:hover {
 	background-color: white;
 	border: 1px solid #0e6a6a;
 }
+*/
 
 
 /* Footer */
