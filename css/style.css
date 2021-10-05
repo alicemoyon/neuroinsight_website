@@ -43,6 +43,26 @@ h2 {
 	font-size: 2rem;
 }
 
+@media (max-width:768px) {
+	h2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width:767px) {
+
+	h2,
+	.ucd-box-text {
+		text-align: center;
+	}
+}
+
+@media (max-width:767px) {
+	.ucd-box-logo {
+		max-width: 50%;
+	}
+}
+
 
 .h1,
 h1 {
@@ -572,6 +592,26 @@ a.profile-link {
 	line-height: 1.5;
 }
 
+@media (max-width: 767px) {
+
+	.ucd-box-text p,
+	.intro p {
+		font-size: 16px;
+	}
+}
+
+footer p {
+	font-size: 12px;
+	font-style: italic;
+}
+
+@media (max-width: 767px) {
+
+	footer p {
+		font-size: 12px;
+	}
+}
+
 .activities {
 	background-color: #92c841
 }
@@ -666,7 +706,8 @@ a#phd-apply-button.btn.research-button.btn-rounded:hover {
 /* Footer */
 
 .fundedby {
-	transform: translateY(-30%);
+	/*	transform: translateY(-30%);*/
+	/*	max-height: 50%;*/
 }
 
 @media (max-width:768px) {
