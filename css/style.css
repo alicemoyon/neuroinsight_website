@@ -149,6 +149,10 @@ h6.occupation {
 	line-height: 1;
 }
 
+.my-btn:hover {
+	background-color: #0e6a6a !important;
+}
+
 .btn-primary {
 	background-color: #92c841;
 }
@@ -515,6 +519,12 @@ img.profile {
 	}
 }
 
+@media (max-width:1024px) {
+	.techniques {
+		display: none;
+	}
+}
+
 
 
 row.techniques {
@@ -663,7 +673,7 @@ footer p {
 /* Research Areas page */
 
 /*
-.btn.research-button {
+.btn.my-btn {
 	background-color: #0e6a6a;
 	font-family: 'Dosis';
 	font-weight: 600;
